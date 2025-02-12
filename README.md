@@ -56,10 +56,10 @@ The performance of the UKF filter is evaluated based on the RMSE (Root Mean Squa
 You can watch the simulation results in the following videos:
 
 - **Simulation with LIDAR and RADAR Data:**  
-  ![LIDAR and RADAR Data Visualization](media/output_tracking_vis.webm)
-
+  <img src="media/ukf_highway.gif" width="700" height="400" />
+  
 - **Simulation with Point Cloud Data (PCD):**  
-  ![PCD Visualization](media/output_vis_pcd.webm)
+<img src="media/ukf_highway_pcd.gif" width="700" height="400" />
 
 
 These videos demonstrate how the LIDAR and RADAR measurements are used to track the vehicles and how the UKF filter processes the data to estimate their positions and velocities.
